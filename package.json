@@ -1,0 +1,9 @@
+{
+  "name": "vigenere-cli",
+  "version": "0.1.0",
+  "main": "cli.js",
+  "type": "commonjs",
+  "bin": {
+    "vigenere": "./cli.js"
+  }
+}

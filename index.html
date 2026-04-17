@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vigenère Cipher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vigenère Cipher Encryption</h1>
+        <form id="cipherForm">
+            <label for="plaintext">Plaintext:</label>
+            <input type="text" id="plaintext" name="plaintext" required>
+            <label for="keystream">Keystream:</label>
+            <input type="text" id="keystream" name="keystream" required>
+            <button type="submit">Encrypt</button>
+        </form>
+        <div id="result">
+            <h3>Ciphertext:</h3>
+            <p id="ciphertext"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
